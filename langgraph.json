@@ -1,0 +1,19 @@
+{
+  "python_version": "3.11",
+  "dependencies": [
+    "langgraph",
+    "langchain",
+    "langchain-groq",
+    "fastapi",
+    "uvicorn",
+    "python-dotenv",
+    "pydantic"
+  ],
+  "graphs": {
+    "aria": {
+      "path": "main:agent",
+      "description": "ARIA Advanced Reasoning Intelligence Assistant"
+    }
+  },
+  "env": ".env"
+}

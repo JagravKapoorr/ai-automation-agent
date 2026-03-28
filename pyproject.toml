@@ -1,0 +1,25 @@
+[project]
+name = "ai-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "apscheduler>=3.11.2",
+    "beautifulsoup4>=4.14.3",
+    "fastapi>=0.135.1",
+    "httpx>=0.28.1",
+    "langchain>=1.2.11",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.2.18",
+    "langchain-groq>=1.1.2",
+    "langchain-tavily>=0.2.17",
+    "langgraph>=1.1.0",
+    "langgraph-cli>=0.4.18",
+    "langsmith>=0.7.16",
+    "pydantic>=2.12.5",
+    "python-dotenv>=1.2.2",
+    "requests>=2.32.5",
+    "tavily-python>=0.7.23",
+    "uvicorn[standard]>=0.41.0",
+]
