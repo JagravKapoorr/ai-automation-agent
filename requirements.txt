@@ -11,3 +11,4 @@ httpx
 requests
 PyYAML
 tenacity
+apscheduler
